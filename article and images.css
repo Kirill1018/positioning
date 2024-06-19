@@ -1,0 +1,53 @@
+.article {
+    width:600px;
+}
+.cat {
+    width:300px;
+    height:240px;
+}
+.signature {
+    background-color:cadetblue;
+    color:whitesmoke;
+    width:300px;
+}
+.tabbyCat {
+    margin-left:630px;
+    margin-top:-420px;
+}
+.papillae {
+    text-align:left;
+    padding-left:630px;
+    margin-top:30px;
+}
+@media (max-width:599px) {
+    body {
+        text-align:center;
+    }
+    .section {
+        position:absolute;
+        padding-top:300px;
+    }
+    .tabbyCat {
+        padding-left:180px;
+        padding-top:600px;
+    }
+    .papillae {
+        padding-top:300px;
+        margin-left:-150px;
+    }
+}
+@media (max-width:799px) {
+    .tabbyCat {
+        text-align:left;
+        margin-left:30px;
+        margin-top:-600px;
+    }
+    .papillae {
+        text-align:none;
+        padding-left:360px;
+        margin-top:-261px;
+    }
+    .section {
+        margin-top:300px;
+    }
+}
